@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  position: relative;
+  left: 2vw;
+}
+img.search {
+  position: relative;
+  left: 56vw;
+}
+.header p{
+  position: relative;
+  top: 2.5vw;
+}
+
+.top-content h1{
+margin-left: 3vw;
+font-size: 5vw;
+}
+.top-content p{
+text-align: left;
+width: 40%;
+margin-left: 1vw;
+font-size: 2vw;
+}
+.iceage{
+  width: 50%;
+  margin: 0 5vw 0 0;
+  float: right;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 0%;
+  width: 60%;
+}
+.btn{
+  display:inline;
+  text-decoration: none;
+  border: 2px solid transparent;
+  padding: 20px 60px;
+  border-radius: 60px;
+  transition: .4s;
+  font-size: 3vw;
+  border: solid 0.2vw #005469;
+  border-radius:5vw ;
+}
+.btn:hover{
+      background-color: transparent;
+      border: 2px;
+      cursor: pointer;
+    }
+    
+  
+.skybottom{
+  margin-top: 2.4%;
+  width: 100%;
+}
+
+.catalog{
+  width:70%;
+  margin: 0 15%;
+}
+.catalog p{
+  display:inline;
+  font-weight: bold;
+  
+}
+.catalog img{
+ float: right;
+ margin-left: 2vw;
+ position: relative;
+ bottom: 1.5vw;
+
+}
+
+.title, 
+.genre,
+.watch{
+ width:20%
+}
+
+.scroll1 {
+  max-width:1200px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin: 10%;
+}
+img.poster {
+  width: 180px;
+  height: 230px;
+}
+
+.movie{
+  width: 25%;
+}
+
+.movie p{
+  text-align: center;
+  padding: 2%;
+  position: relative;
+  right: 2vw;
+
+}
+.movie button{
+  position: relative;
+    left: 3.5vw;
+  padding: 5px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 0.5rem;
+  width: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+}
+a#cat {
+  position: relative;
+  left: 62vw;
+  top: 2.5vw;
+}
+a#wish {
+  position: relative;
+  left: 65vw;
+  top: 2.5vw;
+}
+.footer {
+  text-align: center;
+}
+
+.like {
+  width: 8%;
+  position: relative;
+  bottom: 31vh;
+  left: 66%;
+}
